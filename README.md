@@ -1,5 +1,3 @@
-# group-4-assignment
-
 # Anggota Kelompok 4
 1. Ardellia Putri Pertiwi (2602340911)
 2. Muhammad Salman Magribie (2602338182)
