@@ -20,7 +20,7 @@ $query = "SELECT
     AVG(p.hargajual) AS rata_rata_harga_penjualan,
     SUM(b.jumlahpembelian) AS total_pembelian,
     AVG(b.hargabeli) AS rata_rata_harga_pembelian,
-    (SUM(p.jumlahpenjualan) * AVG(p.hargajual)) - (SUM(b.jumlahpembelian) * AVG(b.hargabeli)) AS rugi_laba
+	(SUM(b.jumlahpembelian) * AVG(b.hargabeli)) -(SUM(p.jumlahpenjualan) * AVG(p.hargajual)) AS rugi_laba
 FROM
     penjualan AS p
 JOIN
